@@ -1,7 +1,7 @@
 // Módulo de acceso a datos
 const DataAccess = (() => {
   const users = [];
-
+  
   function saveUser(user) {
     users.push(user);
   }
@@ -44,7 +44,7 @@ const BusinessLogic = (() => {
   };
 })();
 
-// Módulo de interfaz usuario (UI)
+// Módulo de interfaz usuario
 const UIManager = (() => {
   const form = document.getElementById("userForm");
   const tbody = document.querySelector("#usersTable tbody");
