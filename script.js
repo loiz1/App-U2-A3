@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
 // Módulo de acceso a datos
 const DataAccess = (() => {
   const users = [];
